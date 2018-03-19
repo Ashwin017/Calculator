@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <div id="container">
+        <div class="calculator">
+            <div class="display tooltip">
+                <p class="history"></p>
+                <span class="tooltiptext" style="visibility: hidden; opacity: 0;">
+                    Don't divide by 0
+                </span>
+                <hr>
+                <p class="result">0</p>
+            </div>
+            <div class="dashboard">
+                <button type="button" class="purge">C</button>
+                <button type="button" class="operator">/</button>
+                <button type="button" class="digit">7</button>
+                <button type="button" class="digit">8</button>
+                <button type="button" class="digit">9</button>
+                <button type="button" class="operator">*</button>
+                <button type="button" class="digit">4</button>
+                <button type="button" class="digit">5</button>
+                <button type="button" class="digit">6</button>
+                <button type="button" class="operator">-</button>
+                <button type="button" class="digit">1</button>
+                <button type="button" class="digit">2</button>
+                <button type="button" class="digit">3</button>
+                <button type="button" class="operator">+</button>
+                <button type="button" class="digit zero">0</button>
+                <button type="button" class="digit dot">.</button>
+                <button type="button" class="equal">=</button>
+            </div>
+        </div>
+    </div>
+<script src="calculator.js"></script>
+</body>
+</html>
